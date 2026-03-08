@@ -2,7 +2,7 @@
 
 Official website source for **Agentware Studio**: defining Agentware as the next software paradigm, from software for humans to software for agents.
 
-Website: https://agentware.studio  
+Website: https://agentware.studio *(pending deployment / DNS resolution)*  
 GitHub Org: https://github.com/Agentware-studio
 
 ## About
