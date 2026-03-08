@@ -4,58 +4,69 @@ import { ArrowRight, Github, Twitter, Youtube } from 'lucide-react';
 
 const principles = [
   {
-    title: 'Goal-Driven by Default',
-    body: 'Agentware starts from intent, desired outcomes, and constraints rather than purely manual command sequences or static UI flows.',
+    title: 'Intent-Driven',
+    body: 'Agentware starts from intent and objectives as primary inputs rather than direct step-by-step user operation.',
   },
   {
-    title: 'Memory-Native Architecture',
-    body: 'It maintains structured and persistent context about users, tasks, environments, and prior actions to support long-horizon operation.',
+    title: 'Constraint-Bounded',
+    body: 'Execution is shaped by explicit constraints, policy boundaries, and safety conditions, not unconstrained automation.',
   },
   {
-    title: 'Tool-Mediated Execution',
-    body: 'It acts through APIs, browsers, scripts, services, devices, and other digital interfaces to create real operational effects.',
+    title: 'Memory-Native',
+    body: 'It maintains structured, persistent context across tasks, environments, decisions, and prior actions.',
   },
   {
-    title: 'Governable Autonomy',
-    body: 'Its autonomy is bounded by policy, auditability, intervention points, and safety constraints rather than unrestricted automation.',
+    title: 'Planning-Capable',
+    body: 'It transforms goals into executable strategies, subplans, and decision points across time.',
+  },
+  {
+    title: 'Tool-Executing',
+    body: 'It acts through APIs, browsers, scripts, services, and digital systems to produce operational effects.',
+  },
+  {
+    title: 'Feedback-Closed',
+    body: 'It monitors outcomes, detects deviation, and adapts behavior through continuous feedback loops.',
+  },
+  {
+    title: 'Governable',
+    body: 'Autonomy is governed through policy, auditability, and intervention controls.',
   },
 ];
 
 const characteristics = [
   {
-    title: 'Goal-Oriented Operation',
-    body: 'Operates from intent and desired outcomes rather than fixed user-driven command sequences.',
+    title: 'From Interface-Centric to Goal-Centric',
+    body: 'Traditional software optimizes screens and controls. Agentware optimizes objective interpretation and outcome delivery.',
   },
   {
-    title: 'Persistent Structured Memory',
-    body: 'Maintains durable, organized context about tasks, users, environments, and prior actions.',
+    title: 'From Manual Steps to Agentic Execution',
+    body: 'Traditional systems depend on direct user operation. Agentware accepts objectives and acts within controlled autonomy.',
   },
   {
-    title: 'Planning and Decomposition',
-    body: 'Transforms high-level objectives into executable plans, subtasks, and decision points.',
+    title: 'From Features to Outcomes',
+    body: 'Traditional software provides functional access. Agentware is evaluated by whether outcomes are actually delivered.',
   },
   {
-    title: 'Tool-Mediated Action',
-    body: 'Uses APIs, browsers, scripts, devices, and external systems to produce real-world effects.',
+    title: 'From Fixed Flows to Dynamic Planning',
+    body: 'Traditional logic is often predefined. Agentware plans, re-plans, and coordinates execution as conditions change.',
   },
   {
-    title: 'Governable Autonomy',
-    body: 'Acts autonomously within explicit operational, security, and policy boundaries.',
+    title: 'From Shallow State to Structured Memory',
+    body: 'Traditional state is often session-bound. Agentware maintains durable memory for long-horizon operation.',
   },
   {
-    title: 'Closed-Loop Improvement',
-    body: 'Monitors outcomes, detects deviations, and refines behavior through feedback and evaluation.',
+    title: 'From Implicit Controls to Explicit Governance',
+    body: 'Traditional software emphasizes permissions. Agentware adds policy, auditability, and intervention as first-class controls.',
   },
 ];
 
 const comparisonRows = [
-  ['Primary Mode', 'Human-operated', 'Human-serving, agent-mediated execution'],
-  ['Input Model', 'Commands and UI actions', 'Intent, objectives, and constraints'],
-  ['System State', 'Session-bound or shallow', 'Persistent and structured memory'],
-  ['Execution', 'Predefined workflows', 'Agent-mediated planning, coordination, and adaptive execution'],
-  ['Service Targets', 'End users and teams', 'Humans, organizations, and other agents'],
-  ['Value Delivery', 'Feature access', 'Outcome delivery through an operational agent layer'],
-  ['Control Layer', 'Permissions and settings', 'Governance, auditability, and intervention'],
+  ['Core Orientation', 'Interface and feature-centric', 'Goal, constraint, and outcome-centric'],
+  ['Operation Model', 'Direct step-by-step human operation', 'Agentic execution within controlled autonomy'],
+  ['Workflow Model', 'Fixed workflows and predefined sequences', 'Dynamic planning, tool invocation, and adaptation'],
+  ['System State', 'Session-bound or shallow state', 'Persistent, structured memory'],
+  ['Value Delivery', 'Feature access', 'Outcome delivery'],
+  ['Governance', 'Limited or implicit controls', 'Explicit governance, auditability, and intervention'],
 ];
 
 const domains = [
@@ -181,10 +192,10 @@ export default function AgentwareDefinitionPage() {
                 Agentware
               </motion.h1>
               <motion.p variants={fadeUp} className="mt-8 max-w-2xl text-xl leading-relaxed text-neutral-300 md:text-2xl">
-                Human-serving software powered by agent-mediated execution.
+                From interface-driven software to agentic execution.
               </motion.p>
               <motion.p variants={fadeUp} className="mt-6 max-w-2xl text-base leading-relaxed text-neutral-400 md:text-lg">
-                Agentware is a software paradigm built around agentic execution, where agents act as the operational layer for interpreting objectives, maintaining memory, planning actions, using tools, and delivering outcomes for humans, organizations, and other agents.
+                Agentware is a class of software systems built around agentic execution, where software operates through intent, constraints, memory, planning, tool use, feedback, and governance rather than direct step-by-step human operation.
               </motion.p>
               <motion.div variants={fadeUp} className="mt-12 flex flex-col gap-4 sm:flex-row sm:items-center">
                 <a
@@ -214,7 +225,7 @@ export default function AgentwareDefinitionPage() {
                 <div className="group relative h-full overflow-hidden rounded-3xl border border-white/10 bg-white/[0.02] p-8 transition-colors hover:bg-white/[0.03] md:p-12">
                   <div className="mb-6 font-mono text-xs font-medium uppercase tracking-[0.2em] text-neutral-500">Definition</div>
                   <p className="text-2xl leading-relaxed text-neutral-300 md:text-3xl md:leading-snug">
-                    <span className="font-semibold text-white">Agentware</span> is a class of software systems architected around agentic execution, where agents function as an operational layer with structured memory, planning, tool use, policy-bounded autonomy, and feedback loops to deliver outcomes for humans, organizations, and other agents.
+                    <span className="font-semibold text-white">Agentware</span> is a class of software systems built around agentic execution, where the core operational model is intent interpretation, constraint handling, structured memory, planning, tool use, feedback loops, and governance for reliable outcome delivery.
                   </p>
                 </div>
               </FadeIn>
@@ -224,10 +235,10 @@ export default function AgentwareDefinitionPage() {
                   <div className="mb-6 font-mono text-xs font-medium uppercase tracking-[0.2em] text-neutral-500">Working Formula</div>
                   <div className="relative rounded-xl border border-white/10 bg-black/50 p-6 font-mono text-sm leading-relaxed text-neutral-300 shadow-inner">
                     <div className="absolute top-0 left-0 h-full w-1 bg-white/20" />
-                    <span className="font-semibold text-white">Agentware</span> <span className="text-neutral-600">=</span> Intent <span className="text-neutral-600">+</span> Memory <span className="text-neutral-600">+</span> Planning <span className="text-neutral-600">+</span> Tools <span className="text-neutral-600">+</span> Execution <span className="text-neutral-600">+</span> Feedback <span className="text-neutral-600">+</span> Governance
+                    <span className="font-semibold text-white">Agentware</span> <span className="text-neutral-600">=</span> Intent <span className="text-neutral-600">+</span> Constraints <span className="text-neutral-600">+</span> Memory <span className="text-neutral-600">+</span> Planning <span className="text-neutral-600">+</span> Tools <span className="text-neutral-600">+</span> Execution <span className="text-neutral-600">+</span> Feedback <span className="text-neutral-600">+</span> Governance
                   </div>
                   <p className="mt-8 text-sm leading-relaxed text-neutral-400">
-                    Not just software that responds to commands, but software that can interpret objectives, act within constraints, coordinate execution through agents, and improve through controlled iteration.
+                    Not software that merely executes commands, but software that interprets goals, plans strategy, executes through tools, and continuously adapts under governance.
                   </p>
                 </div>
               </FadeIn>
@@ -239,7 +250,7 @@ export default function AgentwareDefinitionPage() {
             <SectionHeading 
               label="Why Agentware" 
               title="Traditional software is built around interfaces. Agentware is built around outcomes."
-              description="The dominant software model of the last era optimized for direct human operation: screens, menus, workflows, and manual control. The emerging era requires software architected around agentic execution, where agents mediate planning and action to deliver outcomes for humans, organizations, and inter-agent systems under human-defined governance."
+              description="The prior era optimized for interface navigation and feature interaction under manual operation. The new paradigm optimizes for objectives, constraints, memory, strategy, execution, feedback, and governance, so systems can deliver outcomes within controlled boundaries."
             />
 
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -286,7 +297,7 @@ export default function AgentwareDefinitionPage() {
                 <div className="h-full rounded-3xl border border-white/5 bg-white/[0.01] p-8 md:p-10">
                   <div className="mb-6 font-mono text-xs font-medium uppercase tracking-[0.2em] text-neutral-500">Formal Definition</div>
                   <p className="text-base leading-relaxed text-neutral-300">
-                    Agentware is software architected around agentic execution, in which software agents serve as the operational layer for interpreting objectives, maintaining context, planning actions, invoking tools, coordinating workflows, and delivering outcomes for humans, organizations, and other agents under human-defined governance.
+                    Agentware is a class of software systems architected for agentic execution: a software paradigm in which objectives, constraints, structured memory, planning, tool invocation, feedback loops, and governance form the core operational model of the system. Unlike traditional software centered on interfaces and explicit user commands, Agentware is designed to interpret goals, generate strategies, act across digital environments, and deliver outcomes within controlled boundaries.
                   </p>
                 </div>
               </FadeIn>
@@ -295,7 +306,7 @@ export default function AgentwareDefinitionPage() {
                 <div className="h-full rounded-3xl border border-white/5 bg-white/[0.01] p-8 md:p-10">
                   <div className="mb-6 font-mono text-xs font-medium uppercase tracking-[0.2em] text-neutral-500">Plain-English Meaning</div>
                   <p className="text-base leading-relaxed text-neutral-300">
-                    If traditional software is operated directly by people, Agentware uses agents as the execution and coordination layer to deliver outcomes for people, organizations, and other software systems.
+                    Traditional software gives people functions to operate. Agentware lets people hand objectives to systems that can plan, act, adapt, and deliver results under governance.
                   </p>
                 </div>
               </FadeIn>
@@ -329,7 +340,7 @@ export default function AgentwareDefinitionPage() {
             <SectionHeading 
               label="Vision" 
               title="Future products built on the Agentware paradigm."
-              description="Agentware is not a narrow product category. It is a broader software paradigm in which agents mediate execution to serve human goals, organizational outcomes, and inter-agent coordination across cognition, education, operations, research, and digital infrastructure."
+              description="Agentware is a software operating paradigm that can manifest across personal cognition, education, operations, research, and multi-agent infrastructure. As a consequence, these systems can deliver value to individuals, organizations, and other software systems."
             />
 
             <div className="grid gap-4 md:grid-cols-2">
@@ -363,7 +374,7 @@ export default function AgentwareDefinitionPage() {
                   <div className="absolute top-0 right-0 -z-10 h-[300px] w-[300px] translate-x-1/3 -translate-y-1/3 rounded-full bg-white/[0.03] blur-[80px]" />
                   <div className="mb-6 font-mono text-xs font-medium uppercase tracking-[0.2em] text-neutral-500">Positioning Statement</div>
                   <p className="text-2xl leading-relaxed text-white md:text-3xl md:leading-snug">
-                    Agentware is to the agent era what software was to the computing era: the operational medium through which intelligence is coordinated and delivered into human and organizational value.
+                    Agentware is to the agent era what software was to the computing era: the operational medium through which goals become executable, governable, and scalable outcomes.
                   </p>
                 </div>
               </FadeIn>
