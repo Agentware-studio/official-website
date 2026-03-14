@@ -10,6 +10,21 @@ html {
   scroll-behavior: smooth;
 }
 
+html[data-locale="zh-CN"] {
+  --font-sans: "Inter", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", "Sarasa Mono SC", "Noto Sans Mono CJK SC", ui-monospace, SFMono-Regular, monospace;
+}
+
+html[data-locale="ja"] {
+  --font-sans: "Inter", "Hiragino Sans", "Yu Gothic", "Meiryo", "Noto Sans CJK JP", "Source Han Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", "Osaka-Mono", "Noto Sans Mono CJK JP", ui-monospace, SFMono-Regular, monospace;
+}
+
+html[data-locale="ko"] {
+  --font-sans: "Inter", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans CJK KR", "Source Han Sans K", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", "D2Coding", "Noto Sans Mono CJK KR", ui-monospace, SFMono-Regular, monospace;
+}
+
 body {
   background-color: #050505;
   color: #ededed;
