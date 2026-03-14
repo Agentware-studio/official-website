@@ -231,16 +231,16 @@ const resources = {
       hero: {
         badge: '定义下一代软件范式',
         title: 'Agentware',
-        subtitle: '从界面驱动的软件，迈向代理式执行。',
+        subtitle: '从界面驱动的软件，迈向 Agentic Execution。',
         body:
-          'Agentware 是一类围绕代理式执行构建的软件系统。在这种系统中，软件不再依赖人类逐步操作，而是通过意图、约束、记忆、规划、工具使用、反馈与治理来运行。',
+          'Agentware 是一类围绕 Agentic Execution 构建的软件系统。在这种系统中，软件不再依赖人类逐步操作，而是通过意图、约束、记忆、规划、工具使用、反馈与治理来运行。',
         primaryCta: '阅读定义',
         secondaryCta: '查看 GitHub',
       },
       definition: {
         label: '定义',
         body:
-          'Agentware 是一类以代理式执行为核心的软件系统，其核心运行模型由意图理解、约束处理、结构化记忆、规划、工具使用、反馈闭环与治理共同构成，从而实现可靠的结果交付。',
+          'Agentware 是一类以 Agentic Execution 为核心的软件系统，其核心运行模型由意图理解、约束处理、结构化记忆、规划、工具使用、反馈闭环与治理共同构成，从而实现可靠的结果交付。',
         formulaLabel: '工作公式',
         formulaLead: 'Agentware',
         formulaBody: '意图 + 约束 + 记忆 + 规划 + 工具 + 执行 + 反馈 + 治理',
@@ -258,7 +258,7 @@ const resources = {
             body: '传统软件优化的是页面与控件。Agentware 优化的是对目标的理解以及结果的达成。',
           },
           {
-            title: '从手动步骤到代理式执行',
+            title: '从手动步骤到 Agentic Execution',
             body: '传统系统依赖用户逐步操作。Agentware 接收目标，并在受控自治中采取行动。',
           },
           {
@@ -281,9 +281,9 @@ const resources = {
       },
       principles: {
         label: '原则',
-        title: '代理时代的软件架构原则。',
+        title: 'Agent Era 的软件架构原则。',
         description:
-          'Agentware 并不只是“加了 AI 的软件”。它是为记忆、规划、执行与治理而刻意设计的软件。这些原则定义了真正的代理式系统与仅仅挂了一个 LLM 的传统应用之间的差别。',
+          'Agentware 并不只是“加了 AI 的软件”。它是为记忆、规划、执行与治理而刻意设计的软件。这些原则定义了真正的 Agentic System 与仅仅挂了一个 LLM 的传统应用之间的差别。',
         items: [
           {
             title: '意图驱动',
@@ -320,7 +320,7 @@ const resources = {
         title: '为一类新系统建立形式化定义。',
         formalLabel: '正式定义',
         formalBody:
-          'Agentware 是一类为代理式执行而架构的软件系统。这是一种软件范式：目标、约束、结构化记忆、规划、工具调用、反馈闭环与治理，共同构成系统的核心运行模型。不同于围绕界面和显式用户命令构建的传统软件，Agentware 被设计为能够理解目标、生成策略、跨数字环境行动，并在受控边界内交付结果。',
+          'Agentware 是一类为 Agentic Execution 而架构的软件系统。这是一种软件范式：目标、约束、结构化记忆、规划、工具调用、反馈闭环与治理，共同构成系统的核心运行模型。不同于围绕界面和显式用户命令构建的传统软件，Agentware 被设计为能够理解目标、生成策略、跨数字环境行动，并在受控边界内交付结果。',
         plainLabel: '通俗解释',
         plainBody:
           '传统软件给人提供可操作的功能；Agentware 让人把目标交给系统，由系统在治理之下完成规划、行动、适应与结果交付。',
@@ -340,7 +340,7 @@ const resources = {
           {
             dimension: '运行模式',
             traditional: '人类逐步直接操作',
-            agentware: '在受控自治中的代理式执行',
+            agentware: '在受控自治中的 Agentic Execution',
           },
           {
             dimension: '工作流模型',
@@ -368,43 +368,43 @@ const resources = {
         label: '愿景',
         title: '基于 Agentware 范式构建的未来产品。',
         description:
-          'Agentware 是一种软件运行范式，可体现于个人认知、教育、运营、研究以及多代理基础设施之中。因此，这类系统能够为个人、组织以及其他软件系统创造价值。',
+          'Agentware 是一种软件运行范式，可体现于个人认知、教育、运营、研究以及 Multi-Agent 基础设施之中。因此，这类系统能够为个人、组织以及其他软件系统创造价值。',
         items: [
           {
             title: '个人智能系统',
             body: '这种软件能够长期理解用户、建立工作记忆，并成为思考、规划与决策支持的操作层。',
           },
           {
-            title: '代理原生浏览器',
-            body: '在这样的执行环境中，代理可以在 Web 上导航、检查、行动与协同，作为人和组织结果交付的操作层。',
+            title: 'Agent-native 浏览器',
+            body: '在这样的执行环境中，Agent 可以在 Web 上导航、检查、行动与协同，作为人和组织结果交付的操作层。',
           },
           {
             title: 'AI 导师与认知系统',
             body: '这类长周期学习系统会围绕对学习者的持续建模，自适应地调整课程、节奏、练习与内容生成。',
           },
           {
-            title: '多代理工作流',
-            body: '在这类协同系统中，专门化代理共享记忆、协商职责，并共同完成复杂的运营任务。',
+            title: 'Multi-Agent 工作流',
+            body: '在这类协同系统中，专门化 Agent 共享记忆、协商职责，并共同完成复杂的运营任务。',
           },
         ],
         domainsLabel: '示例领域',
         domains: [
           '个人智能系统',
-          '代理原生浏览器与操作系统',
+          'Agent-native 浏览器与操作系统',
           '具备记忆与课程自适应的 AI 导师',
           '自主研究与知识工作流',
-          '业务运营与决策支持代理',
-          '面向多代理执行的开发者工具链',
+          '业务运营与决策支持 Agent',
+          '面向 Multi-Agent 执行的开发者工具链',
         ],
         positioningLabel: '定位陈述',
         positioningBody:
-          'Agentware 之于代理时代，正如 Software 之于计算时代：它是让目标变得可执行、可治理、可规模化交付结果的操作媒介。',
+          'Agentware 之于 Agent Era，正如 Software 之于计算时代：它是让目标变得可执行、可治理、可规模化交付结果的操作媒介。',
       },
       cta: {
         label: '参与进来',
-        title: '为代理时代构建软件层。',
+        title: '为 Agent Era 构建软件层。',
         body:
-          'Agentware Studio 正在尝试定义、系统化并构建代理原生软件在概念与实践层面的基础。',
+          'Agentware Studio 正在尝试定义、系统化并构建 Agent-native 软件在概念与实践层面的基础。',
         github: '关注 GitHub',
         x: '关注 X',
       },
@@ -433,16 +433,16 @@ const resources = {
       hero: {
         badge: '次世代ソフトウェアのパラダイムを定義する',
         title: 'Agentware',
-        subtitle: 'インターフェース駆動のソフトウェアから、エージェント的実行へ。',
+        subtitle: 'インターフェース駆動のソフトウェアから、Agentic Execution へ。',
         body:
-          'Agentware とは、エージェント的実行を中心に構築されたソフトウェアシステムの総称です。そこではソフトウェアは人間の逐次操作に依存するのではなく、意図、制約、記憶、計画、ツール利用、フィードバック、ガバナンスを通じて動作します。',
+          'Agentware とは、Agentic Execution を中心に構築されたソフトウェアシステムの総称です。そこではソフトウェアは人間の逐次操作に依存するのではなく、意図、制約、記憶、計画、ツール利用、フィードバック、ガバナンスを通じて動作します。',
         primaryCta: '定義を読む',
         secondaryCta: 'GitHub を見る',
       },
       definition: {
         label: '定義',
         body:
-          'Agentware とは、エージェント的実行を中核に据えたソフトウェアシステムの一類型であり、その中核的な運用モデルは、意図の解釈、制約処理、構造化記憶、計画、ツール利用、フィードバックループ、ガバナンスによって構成され、信頼できる成果の提供を実現します。',
+          'Agentware とは、Agentic Execution を中核に据えたソフトウェアシステムの一類型であり、その中核的な運用モデルは、意図の解釈、制約処理、構造化記憶、計画、ツール利用、フィードバックループ、ガバナンスによって構成され、信頼できる成果の提供を実現します。',
         formulaLabel: '動作式',
         formulaLead: 'Agentware',
         formulaBody: '意図 + 制約 + 記憶 + 計画 + ツール + 実行 + フィードバック + ガバナンス',
@@ -460,7 +460,7 @@ const resources = {
             body: '従来のソフトウェアは画面や操作系を最適化します。Agentware は目標解釈と成果提供を最適化します。',
           },
           {
-            title: '手作業の手順からエージェント的実行へ',
+            title: '手作業の手順から Agentic Execution へ',
             body: '従来のシステムは人間の逐次操作に依存します。Agentware は目標を受け取り、制御された自律性の中で行動します。',
           },
           {
@@ -483,9 +483,9 @@ const resources = {
       },
       principles: {
         label: '原則',
-        title: 'エージェント時代のアーキテクチャ原則。',
+        title: 'Agent Era のアーキテクチャ原則。',
         description:
-          'Agentware は単に AI を載せたソフトウェアではありません。記憶、計画、実行、ガバナンスのために意図的に設計されたソフトウェアです。これらの原則が、真のエージェントシステムと LLM を付け足しただけの従来アプリを分けます。',
+          'Agentware は単に AI を載せたソフトウェアではありません。記憶、計画、実行、ガバナンスのために意図的に設計されたソフトウェアです。これらの原則が、真の Agentic System と LLM を付け足しただけの従来アプリを分けます。',
         items: [
           {
             title: '意図駆動',
@@ -522,7 +522,7 @@ const resources = {
         title: '新しいシステム類型のための形式的定義。',
         formalLabel: '形式的定義',
         formalBody:
-          'Agentware とは、エージェント的実行のために設計されたソフトウェアシステムの一類型です。目標、制約、構造化記憶、計画、ツール呼び出し、フィードバックループ、ガバナンスが、システムの中核運用モデルを構成します。インターフェースや明示的なユーザー命令を中心とする従来ソフトウェアとは異なり、Agentware は目標を解釈し、戦略を生成し、デジタル環境をまたいで行動し、制御された境界内で成果を届けるよう設計されています。',
+          'Agentware とは、Agentic Execution のために設計されたソフトウェアシステムの一類型です。目標、制約、構造化記憶、計画、ツール呼び出し、フィードバックループ、ガバナンスが、システムの中核運用モデルを構成します。インターフェースや明示的なユーザー命令を中心とする従来ソフトウェアとは異なり、Agentware は目標を解釈し、戦略を生成し、デジタル環境をまたいで行動し、制御された境界内で成果を届けるよう設計されています。',
         plainLabel: '平易な意味',
         plainBody:
           '従来のソフトウェアは人に機能を与えます。Agentware は人が目標をシステムに渡し、そのシステムがガバナンスのもとで計画し、行動し、適応し、結果を届けます。',
@@ -542,7 +542,7 @@ const resources = {
           {
             dimension: '運用モデル',
             traditional: '人間による逐次的な直接操作',
-            agentware: '制御された自律性の中でのエージェント的実行',
+            agentware: '制御された自律性の中での Agentic Execution',
           },
           {
             dimension: 'ワークフローモデル',
@@ -570,43 +570,43 @@ const resources = {
         label: 'ビジョン',
         title: 'Agentware パラダイム上に築かれる未来のプロダクト。',
         description:
-          'Agentware は、個人認知、教育、オペレーション、研究、マルチエージェント基盤にまたがって現れうるソフトウェア運用パラダイムです。その結果、個人、組織、他のソフトウェアシステムに価値を届けられます。',
+          'Agentware は、個人認知、教育、オペレーション、研究、Multi-Agent 基盤にまたがって現れうるソフトウェア運用パラダイムです。その結果、個人、組織、他のソフトウェアシステムに価値を届けられます。',
         items: [
           {
             title: '個人知能システム',
             body: '時間をかけてユーザーを理解し、作業記憶を築き、思考・計画・意思決定支援の運用レイヤーとして機能するソフトウェアです。',
           },
           {
-            title: 'エージェントネイティブなブラウザ',
-            body: 'エージェントが Web 上を移動し、観察し、行動し、協調できる実行環境であり、人や組織の成果達成を支える運用レイヤーです。',
+            title: 'Agent-native ブラウザ',
+            body: 'Agent が Web 上を移動し、観察し、行動し、協調できる実行環境であり、人や組織の成果達成を支える運用レイヤーです。',
           },
           {
             title: 'AI チューターと認知システム',
             body: '学習者の持続的なモデルに基づき、カリキュラム、進度、練習、メディア生成を長期的に適応させる学習システムです。',
           },
           {
-            title: 'マルチエージェントワークフロー',
-            body: '専門化されたエージェントが記憶を共有し、役割を調整しながら、複雑な運用タスクを共同で完遂する協調システムです。',
+            title: 'Multi-Agent ワークフロー',
+            body: '専門化された Agent が記憶を共有し、役割を調整しながら、複雑な運用タスクを共同で完遂する協調システムです。',
           },
         ],
         domainsLabel: '想定ドメイン',
         domains: [
           '個人知能システム',
-          'エージェントネイティブなブラウザとオペレーターシステム',
+          'Agent-native ブラウザとオペレーターシステム',
           '記憶とカリキュラム適応を備えた AI チューター',
           '自律的なリサーチと知識ワークフロー',
-          '業務運用と意思決定支援エージェント',
-          'マルチエージェント実行のための開発者ツールチェーン',
+          '業務運用と意思決定支援 Agent',
+          'Multi-Agent 実行のための開発者ツールチェーン',
         ],
         positioningLabel: 'ポジショニング',
         positioningBody:
-          'Agentware はエージェント時代において、コンピューティング時代の software に相当するものです。目標を実行可能で、統治可能で、スケール可能な成果へと変える運用媒体です。',
+          'Agentware は Agent Era において、コンピューティング時代の software に相当するものです。目標を実行可能で、統治可能で、スケール可能な成果へと変える運用媒体です。',
       },
       cta: {
         label: '参加する',
-        title: 'エージェント時代のソフトウェアレイヤーをつくる。',
+        title: 'Agent Era のソフトウェアレイヤーをつくる。',
         body:
-          'Agentware Studio は、エージェントネイティブなソフトウェアの概念的・実践的基盤を定義し、体系化し、実装するための初期的な取り組みです。',
+          'Agentware Studio は、Agent-native ソフトウェアの概念的・実践的基盤を定義し、体系化し、実装するための初期的な取り組みです。',
         github: 'GitHub をフォロー',
         x: 'X をフォロー',
       },
@@ -635,16 +635,16 @@ const resources = {
       hero: {
         badge: 'Definiendo el próximo paradigma del software',
         title: 'Agentware',
-        subtitle: 'Del software guiado por interfaces a la ejecución agéntica.',
+        subtitle: 'Del software guiado por interfaces a Agentic Execution.',
         body:
-          'Agentware es una clase de sistemas de software construidos en torno a la ejecución agéntica, donde el software opera mediante intención, restricciones, memoria, planificación, uso de herramientas, retroalimentación y gobernanza, en lugar de depender de una operación humana paso a paso.',
+          'Agentware es una clase de sistemas de software construidos en torno a Agentic Execution, donde el software opera mediante intención, restricciones, memoria, planificación, uso de herramientas, retroalimentación y gobernanza, en lugar de depender de una operación humana paso a paso.',
         primaryCta: 'Leer la definición',
         secondaryCta: 'Ver GitHub',
       },
       definition: {
         label: 'Definición',
         body:
-          'Agentware es una clase de sistemas de software construidos en torno a la ejecución agéntica, cuyo modelo operativo central está compuesto por interpretación de intención, manejo de restricciones, memoria estructurada, planificación, uso de herramientas, bucles de retroalimentación y gobernanza para entregar resultados confiables.',
+          'Agentware es una clase de sistemas de software construidos en torno a Agentic Execution, cuyo modelo operativo central está compuesto por interpretación de intención, manejo de restricciones, memoria estructurada, planificación, uso de herramientas, bucles de retroalimentación y gobernanza para entregar resultados confiables.',
         formulaLabel: 'Fórmula operativa',
         formulaLead: 'Agentware',
         formulaBody: 'Intención + Restricciones + Memoria + Planificación + Herramientas + Ejecución + Retroalimentación + Gobernanza',
@@ -662,7 +662,7 @@ const resources = {
             body: 'El software tradicional optimiza pantallas y controles. Agentware optimiza la interpretación del objetivo y la entrega de resultados.',
           },
           {
-            title: 'De pasos manuales a ejecución agéntica',
+            title: 'De pasos manuales a Agentic Execution',
             body: 'Los sistemas tradicionales dependen de la operación directa del usuario. Agentware recibe objetivos y actúa dentro de una autonomía controlada.',
           },
           {
@@ -724,7 +724,7 @@ const resources = {
         title: 'Una definición formal para una nueva clase de sistemas.',
         formalLabel: 'Definición formal',
         formalBody:
-          'Agentware es una clase de sistemas de software arquitectados para la ejecución agéntica: un paradigma de software en el que objetivos, restricciones, memoria estructurada, planificación, invocación de herramientas, bucles de retroalimentación y gobernanza forman el modelo operativo central del sistema. A diferencia del software tradicional centrado en interfaces y comandos explícitos del usuario, Agentware está diseñado para interpretar metas, generar estrategias, actuar a través de entornos digitales y entregar resultados dentro de límites controlados.',
+          'Agentware es una clase de sistemas de software arquitectados para Agentic Execution: un paradigma de software en el que objetivos, restricciones, memoria estructurada, planificación, invocación de herramientas, bucles de retroalimentación y gobernanza forman el modelo operativo central del sistema. A diferencia del software tradicional centrado en interfaces y comandos explícitos del usuario, Agentware está diseñado para interpretar metas, generar estrategias, actuar a través de entornos digitales y entregar resultados dentro de límites controlados.',
         plainLabel: 'Significado en claro',
         plainBody:
           'El software tradicional da a las personas funciones para operar. Agentware permite entregar objetivos a sistemas que pueden planificar, actuar, adaptarse y producir resultados bajo gobernanza.',
@@ -744,7 +744,7 @@ const resources = {
           {
             dimension: 'Modelo operativo',
             traditional: 'Operación humana directa paso a paso',
-            agentware: 'Ejecución agéntica dentro de una autonomía controlada',
+            agentware: 'Agentic Execution dentro de una autonomía controlada',
           },
           {
             dimension: 'Modelo de flujo de trabajo',
@@ -837,16 +837,16 @@ const resources = {
       hero: {
         badge: 'Das nächste Paradigma von Software definieren',
         title: 'Agentware',
-        subtitle: 'Von interface-getriebener Software zu agentischer Ausführung.',
+        subtitle: 'Von interface-getriebener Software zu Agentic Execution.',
         body:
-          'Agentware ist eine Klasse von Softwaresystemen, die um agentische Ausführung herum aufgebaut sind. Software arbeitet hier über Intention, Rahmenbedingungen, Gedächtnis, Planung, Werkzeugnutzung, Feedback und Governance statt über direkte menschliche Schritt-für-Schritt-Bedienung.',
+          'Agentware ist eine Klasse von Softwaresystemen, die um Agentic Execution herum aufgebaut sind. Software arbeitet hier über Intention, Rahmenbedingungen, Gedächtnis, Planung, Werkzeugnutzung, Feedback und Governance statt über direkte menschliche Schritt-für-Schritt-Bedienung.',
         primaryCta: 'Definition lesen',
         secondaryCta: 'GitHub ansehen',
       },
       definition: {
         label: 'Definition',
         body:
-          'Agentware ist eine Klasse von Softwaresystemen, die um agentische Ausführung herum aufgebaut sind. Ihr zentrales Betriebsmodell besteht aus Intentionsinterpretation, Umgang mit Rahmenbedingungen, strukturiertem Gedächtnis, Planung, Werkzeugnutzung, Feedback-Schleifen und Governance, um verlässlich Ergebnisse zu liefern.',
+          'Agentware ist eine Klasse von Softwaresystemen, die um Agentic Execution herum aufgebaut sind. Ihr zentrales Betriebsmodell besteht aus Intentionsinterpretation, Umgang mit Rahmenbedingungen, strukturiertem Gedächtnis, Planung, Werkzeugnutzung, Feedback-Schleifen und Governance, um verlässlich Ergebnisse zu liefern.',
         formulaLabel: 'Arbeitsformel',
         formulaLead: 'Agentware',
         formulaBody: 'Intention + Rahmenbedingungen + Gedächtnis + Planung + Werkzeuge + Ausführung + Feedback + Governance',
@@ -864,7 +864,7 @@ const resources = {
             body: 'Traditionelle Software optimiert Bildschirme und Bedienelemente. Agentware optimiert Zielinterpretation und Ergebnislieferung.',
           },
           {
-            title: 'Von manuellen Schritten zu agentischer Ausführung',
+            title: 'Von manuellen Schritten zu Agentic Execution',
             body: 'Traditionelle Systeme hängen von direkter Nutzerbedienung ab. Agentware nimmt Ziele entgegen und handelt innerhalb kontrollierter Autonomie.',
           },
           {
@@ -889,7 +889,7 @@ const resources = {
         label: 'Prinzipien',
         title: 'Die Architekturprinzipien des Agentenzeitalters.',
         description:
-          'Agentware ist nicht bloß KI-aktivierte Software. Es ist Software, die gezielt für Gedächtnis, Planung, Ausführung und Governance entworfen wurde. Diese Prinzipien definieren, was ein agentisches System von einer konventionellen Anwendung mit angehängtem LLM unterscheidet.',
+          'Agentware ist nicht bloß KI-aktivierte Software. Es ist Software, die gezielt für Gedächtnis, Planung, Ausführung und Governance entworfen wurde. Diese Prinzipien definieren, was ein Agentic System von einer konventionellen Anwendung mit angehängtem LLM unterscheidet.',
         items: [
           {
             title: 'Intentionsgetrieben',
@@ -926,7 +926,7 @@ const resources = {
         title: 'Eine formale Definition für eine neue Systemklasse.',
         formalLabel: 'Formale Definition',
         formalBody:
-          'Agentware ist eine Klasse von Softwaresystemen, die für agentische Ausführung entworfen sind: ein Softwareparadigma, in dem Ziele, Rahmenbedingungen, strukturiertes Gedächtnis, Planung, Werkzeugaufrufe, Feedback-Schleifen und Governance das zentrale Betriebsmodell des Systems bilden. Anders als traditionelle Software, die auf Interfaces und explizite Nutzerbefehle ausgerichtet ist, ist Agentware darauf ausgelegt, Ziele zu interpretieren, Strategien zu erzeugen, über digitale Umgebungen hinweg zu handeln und Ergebnisse innerhalb kontrollierter Grenzen zu liefern.',
+          'Agentware ist eine Klasse von Softwaresystemen, die für Agentic Execution entworfen sind: ein Softwareparadigma, in dem Ziele, Rahmenbedingungen, strukturiertes Gedächtnis, Planung, Werkzeugaufrufe, Feedback-Schleifen und Governance das zentrale Betriebsmodell des Systems bilden. Anders als traditionelle Software, die auf Interfaces und explizite Nutzerbefehle ausgerichtet ist, ist Agentware darauf ausgelegt, Ziele zu interpretieren, Strategien zu erzeugen, über digitale Umgebungen hinweg zu handeln und Ergebnisse innerhalb kontrollierter Grenzen zu liefern.',
         plainLabel: 'Einfach erklärt',
         plainBody:
           'Traditionelle Software gibt Menschen Funktionen zur Bedienung. Agentware erlaubt Menschen, Ziele an Systeme zu übergeben, die unter Governance planen, handeln, sich anpassen und Ergebnisse liefern können.',
@@ -1039,16 +1039,16 @@ const resources = {
       hero: {
         badge: 'Définir le prochain paradigme logiciel',
         title: 'Agentware',
-        subtitle: 'Du logiciel piloté par interface à l’exécution agentique.',
+        subtitle: 'Du logiciel piloté par interface à Agentic Execution.',
         body:
-          'Agentware désigne une classe de systèmes logiciels construits autour de l’exécution agentique, où le logiciel opère par intention, contraintes, mémoire, planification, usage d’outils, rétroaction et gouvernance, plutôt que par manipulation humaine étape par étape.',
+          'Agentware désigne une classe de systèmes logiciels construits autour de Agentic Execution, où le logiciel opère par intention, contraintes, mémoire, planification, usage d’outils, rétroaction et gouvernance, plutôt que par manipulation humaine étape par étape.',
         primaryCta: 'Lire la définition',
         secondaryCta: 'Voir GitHub',
       },
       definition: {
         label: 'Définition',
         body:
-          'Agentware désigne une classe de systèmes logiciels construits autour de l’exécution agentique, dont le modèle opérationnel central repose sur l’interprétation de l’intention, la gestion des contraintes, la mémoire structurée, la planification, l’usage d’outils, les boucles de rétroaction et la gouvernance afin de livrer des résultats fiables.',
+          'Agentware désigne une classe de systèmes logiciels construits autour de Agentic Execution, dont le modèle opérationnel central repose sur l’interprétation de l’intention, la gestion des contraintes, la mémoire structurée, la planification, l’usage d’outils, les boucles de rétroaction et la gouvernance afin de livrer des résultats fiables.',
         formulaLabel: 'Formule opératoire',
         formulaLead: 'Agentware',
         formulaBody: 'Intention + Contraintes + Mémoire + Planification + Outils + Exécution + Rétroaction + Gouvernance',
@@ -1066,7 +1066,7 @@ const resources = {
             body: 'Le logiciel traditionnel optimise les écrans et les contrôles. Agentware optimise l’interprétation de l’objectif et la livraison du résultat.',
           },
           {
-            title: 'Des étapes manuelles à l’exécution agentique',
+            title: 'Des étapes manuelles à Agentic Execution',
             body: 'Les systèmes traditionnels dépendent de l’opération directe de l’utilisateur. Agentware reçoit des objectifs et agit dans une autonomie contrôlée.',
           },
           {
@@ -1091,7 +1091,7 @@ const resources = {
         label: 'Principes',
         title: 'Les principes architecturaux de l’ère des agents.',
         description:
-          'Agentware n’est pas simplement un logiciel enrichi par l’IA. C’est un logiciel délibérément conçu pour la mémoire, la planification, l’exécution et la gouvernance. Ces principes définissent ce qui distingue un système agentique d’une application conventionnelle à laquelle on a simplement ajouté un LLM.',
+          'Agentware n’est pas simplement un logiciel enrichi par l’IA. C’est un logiciel délibérément conçu pour la mémoire, la planification, l’exécution et la gouvernance. Ces principes définissent ce qui distingue un Agentic System d’une application conventionnelle à laquelle on a simplement ajouté un LLM.',
         items: [
           {
             title: 'Guidé par l’intention',
@@ -1128,7 +1128,7 @@ const resources = {
         title: 'Une définition formelle pour une nouvelle classe de systèmes.',
         formalLabel: 'Définition formelle',
         formalBody:
-          'Agentware est une classe de systèmes logiciels architecturés pour l’exécution agentique: un paradigme logiciel dans lequel objectifs, contraintes, mémoire structurée, planification, invocation d’outils, boucles de rétroaction et gouvernance forment le modèle opérationnel central du système. Contrairement au logiciel traditionnel centré sur les interfaces et les commandes explicites de l’utilisateur, Agentware est conçu pour interpréter des objectifs, générer des stratégies, agir à travers des environnements numériques et livrer des résultats dans des limites contrôlées.',
+          'Agentware est une classe de systèmes logiciels architecturés pour Agentic Execution: un paradigme logiciel dans lequel objectifs, contraintes, mémoire structurée, planification, invocation d’outils, boucles de rétroaction et gouvernance forment le modèle opérationnel central du système. Contrairement au logiciel traditionnel centré sur les interfaces et les commandes explicites de l’utilisateur, Agentware est conçu pour interpréter des objectifs, générer des stratégies, agir à travers des environnements numériques et livrer des résultats dans des limites contrôlées.',
         plainLabel: 'En termes simples',
         plainBody:
           'Le logiciel traditionnel donne aux personnes des fonctions à manipuler. Agentware permet de confier des objectifs à des systèmes capables de planifier, agir, s’adapter et livrer des résultats sous gouvernance.',
@@ -1148,7 +1148,7 @@ const resources = {
           {
             dimension: 'Modèle d’opération',
             traditional: 'Manipulation humaine directe étape par étape',
-            agentware: 'Exécution agentique dans une autonomie contrôlée',
+            agentware: 'Agentic Execution dans une autonomie contrôlée',
           },
           {
             dimension: 'Modèle de workflow',
@@ -1241,16 +1241,16 @@ const resources = {
       hero: {
         badge: 'Definindo o próximo paradigma de software',
         title: 'Agentware',
-        subtitle: 'Do software guiado por interface para a execução agêntica.',
+        subtitle: 'Do software guiado por interface para Agentic Execution.',
         body:
-          'Agentware é uma classe de sistemas de software construída em torno da execução agêntica, na qual o software opera por meio de intenção, restrições, memória, planejamento, uso de ferramentas, feedback e governança, em vez de depender de operação humana direta passo a passo.',
+          'Agentware é uma classe de sistemas de software construída em torno de Agentic Execution, na qual o software opera por meio de intenção, restrições, memória, planejamento, uso de ferramentas, feedback e governança, em vez de depender de operação humana direta passo a passo.',
         primaryCta: 'Ler a definição',
         secondaryCta: 'Ver GitHub',
       },
       definition: {
         label: 'Definição',
         body:
-          'Agentware é uma classe de sistemas de software construída em torno da execução agêntica, cujo modelo operacional central é formado por interpretação de intenção, tratamento de restrições, memória estruturada, planejamento, uso de ferramentas, ciclos de feedback e governança para entregar resultados confiáveis.',
+          'Agentware é uma classe de sistemas de software construída em torno de Agentic Execution, cujo modelo operacional central é formado por interpretação de intenção, tratamento de restrições, memória estruturada, planejamento, uso de ferramentas, ciclos de feedback e governança para entregar resultados confiáveis.',
         formulaLabel: 'Fórmula operacional',
         formulaLead: 'Agentware',
         formulaBody: 'Intenção + Restrições + Memória + Planejamento + Ferramentas + Execução + Feedback + Governança',
@@ -1268,7 +1268,7 @@ const resources = {
             body: 'O software tradicional otimiza telas e controles. Agentware otimiza interpretação de objetivos e entrega de resultados.',
           },
           {
-            title: 'De etapas manuais à execução agêntica',
+            title: 'De etapas manuais a Agentic Execution',
             body: 'Sistemas tradicionais dependem da operação direta do usuário. Agentware recebe objetivos e age dentro de uma autonomia controlada.',
           },
           {
@@ -1330,7 +1330,7 @@ const resources = {
         title: 'Uma definição formal para uma nova classe de sistemas.',
         formalLabel: 'Definição formal',
         formalBody:
-          'Agentware é uma classe de sistemas de software arquitetados para execução agêntica: um paradigma de software no qual objetivos, restrições, memória estruturada, planejamento, invocação de ferramentas, ciclos de feedback e governança formam o modelo operacional central do sistema. Diferentemente do software tradicional centrado em interfaces e comandos explícitos do usuário, Agentware é projetado para interpretar metas, gerar estratégias, agir em ambientes digitais e entregar resultados dentro de limites controlados.',
+          'Agentware é uma classe de sistemas de software arquitetados para Agentic Execution: um paradigma de software no qual objetivos, restrições, memória estruturada, planejamento, invocação de ferramentas, ciclos de feedback e governança formam o modelo operacional central do sistema. Diferentemente do software tradicional centrado em interfaces e comandos explícitos do usuário, Agentware é projetado para interpretar metas, gerar estratégias, agir em ambientes digitais e entregar resultados dentro de limites controlados.',
         plainLabel: 'Em linguagem simples',
         plainBody:
           'O software tradicional dá às pessoas funções para operar. Agentware permite entregar objetivos a sistemas que podem planejar, agir, adaptar-se e entregar resultados sob governança.',
@@ -1350,7 +1350,7 @@ const resources = {
           {
             dimension: 'Modelo operacional',
             traditional: 'Operação humana direta passo a passo',
-            agentware: 'Execução agêntica dentro de autonomia controlada',
+            agentware: 'Agentic Execution dentro de autonomia controlada',
           },
           {
             dimension: 'Modelo de workflow',
@@ -1443,16 +1443,16 @@ const resources = {
       hero: {
         badge: '차세대 소프트웨어 패러다임을 정의합니다',
         title: 'Agentware',
-        subtitle: '인터페이스 중심 소프트웨어에서 에이전트 실행 중심으로.',
+        subtitle: '인터페이스 중심 소프트웨어에서 Agentic Execution 중심으로.',
         body:
-          'Agentware는 에이전트 실행을 중심으로 구축된 소프트웨어 시스템의 한 범주입니다. 여기서 소프트웨어는 인간의 단계별 직접 조작에 의존하지 않고, 의도, 제약, 메모리, 계획, 도구 사용, 피드백, 거버넌스를 통해 작동합니다.',
+          'Agentware는 Agentic Execution을 중심으로 구축된 소프트웨어 시스템의 한 범주입니다. 여기서 소프트웨어는 인간의 단계별 직접 조작에 의존하지 않고, 의도, 제약, 메모리, 계획, 도구 사용, 피드백, 거버넌스를 통해 작동합니다.',
         primaryCta: '정의 읽기',
         secondaryCta: 'GitHub 보기',
       },
       definition: {
         label: '정의',
         body:
-          'Agentware는 에이전트 실행을 중심에 둔 소프트웨어 시스템의 한 범주로, 그 핵심 운영 모델은 의도 해석, 제약 처리, 구조화된 메모리, 계획, 도구 사용, 피드백 루프, 거버넌스로 구성되며 신뢰할 수 있는 결과 전달을 목표로 합니다.',
+          'Agentware는 Agentic Execution을 중심에 둔 소프트웨어 시스템의 한 범주로, 그 핵심 운영 모델은 의도 해석, 제약 처리, 구조화된 메모리, 계획, 도구 사용, 피드백 루프, 거버넌스로 구성되며 신뢰할 수 있는 결과 전달을 목표로 합니다.',
         formulaLabel: '작동 공식',
         formulaLead: 'Agentware',
         formulaBody: '의도 + 제약 + 메모리 + 계획 + 도구 + 실행 + 피드백 + 거버넌스',
@@ -1470,7 +1470,7 @@ const resources = {
             body: '전통적인 소프트웨어는 화면과 컨트롤을 최적화합니다. Agentware는 목표 해석과 결과 전달을 최적화합니다.',
           },
           {
-            title: '수동 단계에서 에이전트 실행으로',
+            title: '수동 단계에서 Agentic Execution으로',
             body: '전통적인 시스템은 사용자의 직접 조작에 의존합니다. Agentware는 목표를 받아 통제된 자율성 안에서 행동합니다.',
           },
           {
@@ -1493,9 +1493,9 @@ const resources = {
       },
       principles: {
         label: '원칙',
-        title: '에이전트 시대의 아키텍처 원칙.',
+        title: 'Agent Era의 아키텍처 원칙.',
         description:
-          'Agentware는 단순히 AI가 추가된 소프트웨어가 아닙니다. 메모리, 계획, 실행, 거버넌스를 위해 의도적으로 설계된 소프트웨어입니다. 이 원칙들은 진정한 에이전트 시스템과 LLM만 덧붙인 기존 애플리케이션을 구분합니다.',
+          'Agentware는 단순히 AI가 추가된 소프트웨어가 아닙니다. 메모리, 계획, 실행, 거버넌스를 위해 의도적으로 설계된 소프트웨어입니다. 이 원칙들은 진정한 Agentic System과 LLM만 덧붙인 기존 애플리케이션을 구분합니다.',
         items: [
           {
             title: '의도 주도',
@@ -1532,7 +1532,7 @@ const resources = {
         title: '새로운 시스템 범주를 위한 형식적 정의.',
         formalLabel: '형식적 정의',
         formalBody:
-          'Agentware는 에이전트 실행을 위해 설계된 소프트웨어 시스템의 한 범주입니다. 이 패러다임에서는 목표, 제약, 구조화된 메모리, 계획, 도구 호출, 피드백 루프, 거버넌스가 시스템의 핵심 운영 모델을 이룹니다. 인터페이스와 명시적 사용자 명령에 중심을 두는 전통적인 소프트웨어와 달리, Agentware는 목표를 해석하고 전략을 생성하며 디지털 환경 전반에서 행동하고 통제된 경계 안에서 결과를 전달하도록 설계됩니다.',
+          'Agentware는 Agentic Execution을 위해 설계된 소프트웨어 시스템의 한 범주입니다. 이 패러다임에서는 목표, 제약, 구조화된 메모리, 계획, 도구 호출, 피드백 루프, 거버넌스가 시스템의 핵심 운영 모델을 이룹니다. 인터페이스와 명시적 사용자 명령에 중심을 두는 전통적인 소프트웨어와 달리, Agentware는 목표를 해석하고 전략을 생성하며 디지털 환경 전반에서 행동하고 통제된 경계 안에서 결과를 전달하도록 설계됩니다.',
         plainLabel: '쉽게 말하면',
         plainBody:
           '전통적인 소프트웨어는 사람이 직접 조작할 기능을 제공합니다. Agentware는 사람이 목표를 넘기면 시스템이 거버넌스 아래에서 계획하고 행동하고 적응하여 결과를 전달하게 합니다.',
@@ -1552,7 +1552,7 @@ const resources = {
           {
             dimension: '운영 모델',
             traditional: '인간의 단계별 직접 조작',
-            agentware: '통제된 자율성 안의 에이전트 실행',
+            agentware: '통제된 자율성 안의 Agentic Execution',
           },
           {
             dimension: '워크플로 모델',
@@ -1580,43 +1580,43 @@ const resources = {
         label: '비전',
         title: 'Agentware 패러다임 위에 구축될 미래 제품.',
         description:
-          'Agentware는 개인 인지, 교육, 운영, 연구, 멀티 에이전트 인프라 전반에 걸쳐 구현될 수 있는 소프트웨어 운영 패러다임입니다. 그 결과 이러한 시스템은 개인, 조직, 다른 소프트웨어 시스템에 가치를 전달할 수 있습니다.',
+          'Agentware는 개인 인지, 교육, 운영, 연구, Multi-Agent 인프라 전반에 걸쳐 구현될 수 있는 소프트웨어 운영 패러다임입니다. 그 결과 이러한 시스템은 개인, 조직, 다른 소프트웨어 시스템에 가치를 전달할 수 있습니다.',
         items: [
           {
             title: '개인 지능 시스템',
             body: '시간에 걸쳐 사용자를 이해하고 작업 메모리를 구축하며 사고, 계획, 의사결정 지원을 위한 운영 계층으로 작동하는 소프트웨어입니다.',
           },
           {
-            title: '에이전트 네이티브 브라우저',
-            body: '에이전트가 웹을 탐색하고, निरी하고, 행동하고, 협업하는 실행 환경으로서 인간과 조직의 결과 전달을 위한 운영 계층이 됩니다.',
+            title: 'Agent-native 브라우저',
+            body: 'Agent가 웹을 탐색하고, निरी하고, 행동하고, 협업하는 실행 환경으로서 인간과 조직의 결과 전달을 위한 운영 계층이 됩니다.',
           },
           {
             title: 'AI 튜터와 인지 시스템',
             body: '학습자에 대한 지속적 모델을 바탕으로 커리큘럼, 속도, 연습, 미디어 생성을 장기적으로 적응시키는 학습 시스템입니다.',
           },
           {
-            title: '멀티 에이전트 워크플로',
-            body: '전문화된 에이전트들이 메모리를 공유하고 책임을 조율하며 복잡한 운영 작업을 함께 완수하는 협력 시스템입니다.',
+            title: 'Multi-Agent 워크플로',
+            body: '전문화된 Agent들이 메모리를 공유하고 책임을 조율하며 복잡한 운영 작업을 함께 완수하는 협력 시스템입니다.',
           },
         ],
         domainsLabel: '예시 도메인',
         domains: [
           '개인 지능 시스템',
-          '에이전트 네이티브 브라우저와 오퍼레이터 시스템',
+          'Agent-native 브라우저와 오퍼레이터 시스템',
           '메모리와 커리큘럼 적응을 갖춘 AI 튜터',
           '자율 연구 및 지식 워크플로',
-          '비즈니스 운영 및 의사결정 지원 에이전트',
-          '멀티 에이전트 실행을 위한 개발자 툴체인',
+          '비즈니스 운영 및 의사결정 지원 Agent',
+          'Multi-Agent 실행을 위한 개발자 툴체인',
         ],
         positioningLabel: '포지셔닝 문장',
         positioningBody:
-          'Agentware는 에이전트 시대에 software가 컴퓨팅 시대에 했던 역할과 같습니다. 목표를 실행 가능하고, 거버넌스 가능하며, 확장 가능한 결과로 바꾸는 운영 매체입니다.',
+          'Agentware는 Agent Era에 software가 컴퓨팅 시대에 했던 역할과 같습니다. 목표를 실행 가능하고, 거버넌스 가능하며, 확장 가능한 결과로 바꾸는 운영 매체입니다.',
       },
       cta: {
         label: '함께하기',
-        title: '에이전트 시대를 위한 소프트웨어 계층을 구축합니다.',
+        title: 'Agent Era를 위한 소프트웨어 계층을 구축합니다.',
         body:
-          'Agentware Studio는 에이전트 네이티브 소프트웨어의 개념적·실천적 기반을 정의하고 체계화하며 구축하려는 초기 노력입니다.',
+          'Agentware Studio는 Agent-native 소프트웨어의 개념적·실천적 기반을 정의하고 체계화하며 구축하려는 초기 노력입니다.',
         github: 'GitHub에서 팔로우',
         x: 'X에서 팔로우',
       },
