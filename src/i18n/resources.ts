@@ -79,7 +79,7 @@ const resources = {
       },
       principles: {
         label: 'Principles',
-        title: 'The architectural principles of the agent era.',
+        title: 'The architectural principles of Agentware.',
         description:
           'Agentware is not merely AI-enabled software. It is software deliberately architected for memory, planning, execution, and governance. These principles define what separates an agentic system from a conventional application with an LLM attached.',
         items: [
@@ -281,7 +281,7 @@ const resources = {
       },
       principles: {
         label: '原则',
-        title: 'Agent Era 的软件架构原则。',
+        title: 'Agentware 的软件架构原则。',
         description:
           'Agentware 并不只是“加了 AI 的软件”。它是为记忆、规划、执行与治理而刻意设计的软件。这些原则定义了真正的 Agentic System 与仅仅挂了一个 LLM 的传统应用之间的差别。',
         items: [
@@ -483,7 +483,7 @@ const resources = {
       },
       principles: {
         label: '原則',
-        title: 'Agent Era のアーキテクチャ原則。',
+        title: 'Agentware のアーキテクチャ原則。',
         description:
           'Agentware は単に AI を載せたソフトウェアではありません。記憶、計画、実行、ガバナンスのために意図的に設計されたソフトウェアです。これらの原則が、真の Agentic System と LLM を付け足しただけの従来アプリを分けます。',
         items: [
@@ -685,7 +685,7 @@ const resources = {
       },
       principles: {
         label: 'Principios',
-        title: 'Los principios arquitectónicos de la era de los agentes.',
+        title: 'Los principios arquitectónicos de Agentware.',
         description:
           'Agentware no es simplemente software con IA. Es software diseñado deliberadamente para memoria, planificación, ejecución y gobernanza. Estos principios definen lo que separa a un sistema agéntico de una aplicación convencional a la que solo se le añadió un LLM.',
         items: [
@@ -887,7 +887,7 @@ const resources = {
       },
       principles: {
         label: 'Prinzipien',
-        title: 'Die Architekturprinzipien des Agentenzeitalters.',
+        title: 'Die Architekturprinzipien von Agentware.',
         description:
           'Agentware ist nicht bloß KI-aktivierte Software. Es ist Software, die gezielt für Gedächtnis, Planung, Ausführung und Governance entworfen wurde. Diese Prinzipien definieren, was ein Agentic System von einer konventionellen Anwendung mit angehängtem LLM unterscheidet.',
         items: [
@@ -1089,7 +1089,7 @@ const resources = {
       },
       principles: {
         label: 'Principes',
-        title: 'Les principes architecturaux de l’ère des agents.',
+        title: 'Les principes architecturaux d’Agentware.',
         description:
           'Agentware n’est pas simplement un logiciel enrichi par l’IA. C’est un logiciel délibérément conçu pour la mémoire, la planification, l’exécution et la gouvernance. Ces principes définissent ce qui distingue un Agentic System d’une application conventionnelle à laquelle on a simplement ajouté un LLM.',
         items: [
@@ -1291,7 +1291,7 @@ const resources = {
       },
       principles: {
         label: 'Princípios',
-        title: 'Os princípios arquiteturais da era dos agentes.',
+        title: 'Os princípios arquiteturais de Agentware.',
         description:
           'Agentware não é apenas software habilitado por IA. É software deliberadamente arquitetado para memória, planejamento, execução e governança. Esses princípios definem o que separa um sistema agêntico de uma aplicação convencional com um LLM apenas acoplado.',
         items: [
@@ -1493,7 +1493,7 @@ const resources = {
       },
       principles: {
         label: '원칙',
-        title: 'Agent Era의 아키텍처 원칙.',
+        title: 'Agentware의 아키텍처 원칙.',
         description:
           'Agentware는 단순히 AI가 추가된 소프트웨어가 아닙니다. 메모리, 계획, 실행, 거버넌스를 위해 의도적으로 설계된 소프트웨어입니다. 이 원칙들은 진정한 Agentic System과 LLM만 덧붙인 기존 애플리케이션을 구분합니다.',
         items: [
