@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/knowledge-base-evolution",
-      "destination": "/index.html"
+      "destination": "/"
     },
     {
-      "source": "/knowledge-base-evolution/(.*)",
-      "destination": "/index.html"
+      "source": "/knowledge-base-evolution/:path*",
+      "destination": "/"
     }
   ]
 }
