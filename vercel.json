@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/knowledge-base-evolution",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/knowledge-base-evolution/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

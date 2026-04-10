@@ -228,6 +228,12 @@ export default function AgentwareDefinitionPage() {
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </a>
                 <a
+                  href="/knowledge-base-evolution"
+                  className="inline-flex items-center justify-center gap-2 rounded-full border border-white/10 bg-transparent px-8 py-3.5 text-sm font-medium text-white transition-colors hover:bg-white/5 active:scale-95"
+                >
+                  <span>Knowledge Base Evolution</span>
+                </a>
+                <a
                   href="https://github.com/AgentwareStudio"
                   target="_blank"
                   rel="noopener noreferrer"
